@@ -34,4 +34,4 @@ Non-trainable params: 0
 
 As you can see, it is a basic model which still achieves high accuracies for both validation and test datasets. The first Conv2D layer has 64 filters with a size of (5, 5) and the second Conv2D layer has 128 filters of size (3,3). Both the Max Pooling layers have a pool size of (2,2) and no stride length. Finally, there is a droupout layer with a probability to drop a particular neuron set to 0.2 and two fully connected dense layers with 512 and 256 neurons each. The last dense layer is connected to a softmax output layer which returns the predicted index of the image.
 
-I beleve the model can further be improved by including more layers and training for more epochs. For training 30 epochs with this deep network, I could achieve a training accuracy of 0.9885, a validation accuracy of 0.9997 and a test accuracy of 99.27
+I beleve the model can further be improved by including more layers and training for more epochs. For training 30 epochs with this deep network, I could achieve a training accuracy of 0.9885, a validation accuracy of 0.9997 and a test accuracy of 0.9927
